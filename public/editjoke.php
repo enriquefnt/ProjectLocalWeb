@@ -4,10 +4,10 @@ include __DIR__ . '/../includes/DatabaseFunctions.php';
 
 	try {
 	if (isset($_POST['joke'])) {
-		
+
 			$joke = $_POST['joke'];
 			$joke['jokedate'] = new DateTime();
-			$joke['authorId'] = 1;
+			$joke['authorId'] =3;
 			
 			save($conect_sql, 'joke', 'id', $joke);
 			
