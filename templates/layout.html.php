@@ -18,7 +18,7 @@
 					<a href="jokes.php">Chistes</a>
 				</li>
 				<li>
-					<a href="addjoke.php">Agregar chiste</a>
+					<a href="editjoke.php">Agregar chiste</a>
 				</li>
 			</ul>
 		</nav>

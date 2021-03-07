@@ -1,6 +1,6 @@
 <form action="" method="post">
 	
-	<input type="hidden" name="jokeid" value="<?=$joke['id'];?>">
+		<input type="hidden" name="jokeid" value="<?=$joke['id'] ?? ''?>">
 
 	<label for="joketext">Edita acá:</label>
 
