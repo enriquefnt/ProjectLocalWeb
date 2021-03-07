@@ -1,10 +1,11 @@
 <form action="" method="post">
 	
-		<input type="hidden" name="jokeid" value="<?=$joke['id'] ?? ''?>">
+		<input type="hidden" name="joke[id]" value="<?=$joke['id'] ?? ''?>">
 
 	<label for="joketext">Edita acá:</label>
 
-	<textarea id="joketext" name="joketext" rows="5" cols="160"><?=$joke['joketext']?></textarea>
+	
+	<textarea id="joketext" name="joke[joketext]" rows="3" cols="40"><?= $joke['joketext'] ?? ''?></textarea>
 
 	<input type="submit" value="Guardar cambios">
 
